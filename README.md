@@ -8,6 +8,9 @@ Used Libraries:
 - jQuery
 - SHA (WebToolKit)
 - Bootstrap
+ 
+Here you can test the todo in [english](http://github.damon.ch/angular-todo/en/) or  in [german](http://github.damon.ch/angular-todo/de/)
+
 
 Default Password: test1234
 
