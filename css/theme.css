@@ -1,0 +1,115 @@
+body{
+	margin:0px;
+	background-color: #CCCCCC;
+}
+
+.todo-list{
+	text-align:center;
+	width: 65%;
+}
+
+.body-container{
+	text-align:center;
+}
+
+.head-container , .head-container h1{
+	background-color:#222222;
+	color: #DDDDDD;
+	margin-top: 0px;
+	height:100%;
+	padding:5px 0px;
+}
+
+.todo-list{
+	text-align:left;
+	margin: 0px;
+	margin-top: 15px;
+	padding: 0px;
+}
+
+.todo-table{
+	margin: 0px;
+}
+
+.todo-item-container{
+	padding: 10px 10px 20px 10px;
+	min-height: 70px;
+}
+
+.input-container{
+	background-color: #FFFFFF;
+	text-align:left;
+	width: 30%;
+	margin: 0px 10px;
+	padding: 0px 30px;
+	margin-top: 25px;	
+}
+
+.row-input{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.todo-item-container, .input-container,.delete-popup{
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px; /* future proofing */
+-khtml-border-radius: 10px; 
+}
+
+.table > tbody > tr:nth-child(2n+1) > td > div, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color: #f0f0f0;
+}
+
+.table > tbody > tr:nth-child(2n+0) > td  > div, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: #f0f0f0;
+}
+
+.btn-delete{
+	background-color:#222222;
+	color: #DDDDDD;
+	&:hover; {
+	}
+}
+
+.btn-delete:hover{
+	background-color:#444444;
+	color: #CCCCCC;	
+}
+
+.delete-popup{
+   background-color: #333333;
+   color: #CCCCCC;
+   width: 350px;
+   height: 180px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-top: -90px;
+   margin-left: -175px;
+   padding: 15px;
+}
+
+.delete-h2{
+	font-size: 18px;
+	margin: 5px 0px;
+}
+
+.head-table{
+	width:100%;
+}
+
+.head-table-title{
+	width:20%;
+}
+
+.head-table-lang{
+	width:40%;
+}
+
+.login-form{	
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 50px;
+}
