@@ -17,10 +17,7 @@
 	
 	include(getLangPath($_GET['lang']));
 	
-	if($config['useCookies'])
-		$JsonDB = JsonDB::withCookies();
-	else
-		$JsonDB = JsonDB::withJson();
+	$JsonDB = JsonDB::withJson();
 	$AngularPhp = new AngularPhp();
 	?>
 	

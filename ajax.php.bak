@@ -5,10 +5,7 @@ include "config/config.php";
 
 session_start();
 
-if($config['useCookies'])
-	$JsonDB = JsonDB::withCookies();
-else
-	$JsonDB = JsonDB::withJson();
+$JsonDB = JsonDB::withJson();
 
 if(!$config['useLogin'])
 		$_SESSION['loggedin'] = true;
